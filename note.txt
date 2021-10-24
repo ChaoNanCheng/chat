@@ -1,0 +1,12 @@
+本專案(聊天室)基本上以spring 4 + websocket 為技術核心做開發
+前端socket技術使用sockjs + stomp 做前端頁面資料傳遞與接受
+
+1.開發環境
+eclipse luna
+tomcat 8
+java jdk 8
+gradle
+
+2.
+第一次從git checkout 出來，專案點右鍵configure --> Convert to Gradle
+接著專案點右鍵 Gradle --> Reflesh All

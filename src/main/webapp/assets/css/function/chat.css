@@ -1,0 +1,90 @@
+.chat-box {
+	height:360px;
+	overflow: auto;
+}
+
+.participant-box {
+	height:319px;
+	overflow: auto;
+}
+
+.bubble
+{
+position: relative;
+width: 100%;
+height: 100%;
+padding: 10px;
+background: #D2EAC8;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+border: #B2DBA1 solid 1px;
+}
+
+.bubble:after
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 8px 0 8px 9px;
+border-color: transparent #D2EAC8;
+display: block;
+width: 0;
+z-index: 1;
+right: -9px;
+top: 9px;
+}
+
+.bubble:before
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 8px 0 8px 9px;
+border-color: transparent #B2DBA1;
+display: block;
+width: 0;
+z-index: 0;
+right: -10px;
+top: 9px;
+}
+.bubbleleft
+{
+position: relative;
+width: 100%;
+height: 100%;
+padding: 10px;
+background: #FFFFFF;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+border: #999 solid 1px;
+}
+
+.bubbleleft:after
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 8px 9px 8px 0;
+border-color: transparent #FFFFFF;
+display: block;
+width: 0;
+z-index: 1;
+left: -9px;
+top: 9px;
+}
+
+.bubbleleft:before
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 8px 9px 8px 0;
+border-color: transparent #999;
+display: block;
+width: 0;
+z-index: 0;
+left: -10px;
+top: 9px;
+}
